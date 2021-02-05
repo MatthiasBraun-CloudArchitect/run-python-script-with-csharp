@@ -1,4 +1,4 @@
-# Run a simple Python script with CSharp.
+# Run a simple Python script with CSharp
 
 Simple .NET core 3.1 console application (c#) witch starts a python script with an input parameter.
 
@@ -15,6 +15,5 @@ File: Program.cs
 
 `private static string filePythonNamePath = "C:\\GitRepository\\run-python-script-with-csharp\\RunPythonScript_ConsoleApp\\python_script.py";`
 
-
-
+![c# console application with python outpu](https://drive.google.com/thumbnail?id=1vNDlgKGaTZkhOJexHRU-kar--enBsun8 "Run a simple Python script with CSharp")
 
