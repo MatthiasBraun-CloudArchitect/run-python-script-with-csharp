@@ -15,5 +15,5 @@ File: Program.cs
 
 `private static string filePythonNamePath = "C:\\GitRepository\\run-python-script-with-csharp\\RunPythonScript_ConsoleApp\\python_script.py";`
 
-![c# console application with python outpu](https://drive.google.com/thumbnail?id=1vNDlgKGaTZkhOJexHRU-kar--enBsun8 "Run a simple Python script with CSharp")
+![c# console application with python outpu](https://matthias-foto.de/publicImages/run-python-script-with-csharp.png "Run a simple Python script with CSharp")
 
