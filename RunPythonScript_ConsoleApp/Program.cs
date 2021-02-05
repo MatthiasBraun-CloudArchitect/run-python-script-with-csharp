@@ -16,10 +16,11 @@ namespace RunPythonScript_ConsoleApp
             // Instantiate C# - Python class object            
             ICSharpPython mlSharpPython = new CSharpPython(filePythonExePath);
 
+            // Get input parameter
             Console.WriteLine("Please enter a number for the multiplication calculation (x*10).");
             pythonParameter = Console.ReadLine();
 
-            // Define Python script file and input parameter name
+            // Define Python script file and input parameter
             string fileNameParameter = $"{filePythonNamePath} {pythonParameter}";
 
             // Execute the python script file 
