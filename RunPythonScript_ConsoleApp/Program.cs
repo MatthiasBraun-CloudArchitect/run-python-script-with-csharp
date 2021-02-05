@@ -7,22 +7,20 @@ namespace RunPythonScript_ConsoleApp
 
         // Get config settings
         private static string filePythonExePath = "C:\\Program Files\\Python38\\python.exe";
-        //private static string folderImagePath = Properties.Settings.Default.FolderImagePath;
-        private static string filePythonNamePath = "C:\\GitRepository\\RunPythonScript_ConsoleApp\\python_script.py";
-        private static string filePythonParameter = "2";
+        private static string filePythonNamePath = "C:\\GitRepository\\run-python-script-with-csharp\\RunPythonScript_ConsoleApp\\python_script.py";
 
         static void Main(string[] args)
         {
-            string outputText, standardError;
+            string outputText, standardError, pythonParameter;
 
             // Instantiate C# - Python class object            
             ICSharpPython mlSharpPython = new CSharpPython(filePythonExePath);
 
-            // Test image
-            //string imagePathName = folderImagePath + "Image_Test_Name.png";
+            Console.WriteLine("Please enter a number for the multiplication calculation (x*10).");
+            pythonParameter = Console.ReadLine();
 
             // Define Python script file and input parameter name
-            string fileNameParameter = $"{filePythonNamePath} {filePythonParameter}";
+            string fileNameParameter = $"{filePythonNamePath} {pythonParameter}";
 
             // Execute the python script file 
             outputText = mlSharpPython.ExecutePythonScript(fileNameParameter, out standardError);
